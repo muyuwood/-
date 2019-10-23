@@ -23,7 +23,7 @@ void Triangle::SetTriangle(int x,int y,int z)
     a = x;
     b = y;
     c = z;
-    cout<<&a<<' '<<&b<<`' '<<&c<<endl;
+    cout<<&a<<' '<<&b<<' '<<&c<<endl;
 }
 bool Triangle::JudgeTriangle()
 {
@@ -57,6 +57,6 @@ int main()
   // cout<<sizeof(x)<<endl;//
  //  y.SetTriangle(3,4,5);
   // z.SetTriangle(3,4,5);
-   //cout<<&x<<" "<<&y<<" "<<&z<<endl;
+  // cout<<&x<<" "<<&y<<" "<<&z<<endl;
 
 }
